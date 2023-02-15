@@ -10,3 +10,15 @@ git reset // annuler les modifications prises en compte
 git commit // un commit c'est une version
 git log // connaitre toutes les modifs
 
+git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%
+C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%
+C(bold yellow)%d%C(reset)%n'' %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all 
+
+// le texte en bleu foncé c'est le hashage du commit
+
+
+ git config alias.tree "log --graph --abbrev-commit --decorate --format=format:
+'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C
+(bold yellow)%d%C(reset)%n'' %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all"
+
+// mettre une commande en alias
