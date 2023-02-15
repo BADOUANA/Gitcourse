@@ -3,4 +3,9 @@ Commandes git:
 git --version //version
 git init //debut de projet
 git status //
+git add // ajouter un dossier ou un fichier dans git
+	add. afficher tout ce qui en dessous de toi
+	add -A ajouter tout ce qui est autour de toi
+git reset // annuler les modifications prises en compte
+git commit // un commit c'est une version
 
