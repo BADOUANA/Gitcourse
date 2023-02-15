@@ -1,0 +1,6 @@
+Commandes git:
+
+git --version //version
+git init //debut de projet
+git status //
+
