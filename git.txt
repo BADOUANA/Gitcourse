@@ -23,6 +23,7 @@ C(bold yellow)%d%C(reset)%n'' %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' 
 
 // mettre une commande en alias
 
+<<<<<<< HEAD
 git ignore // tout ce qu'on ne prend pas en compte
 
 git branch // lister les branches
