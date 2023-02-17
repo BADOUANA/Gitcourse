@@ -28,3 +28,18 @@ git ignore // tout ce qu'on ne prend pas en compte
 git branch // lister les branches
 git checkout [nom] ou git switch [nom] // changer de branche
 git checkout -b feature ou git switch -c feature // creer une branche et switcher dessus
+
+
+git rebase # git checkout [nom_branche] //  rebase permet de faire le fast forward only qui va changer 
+l'ancienne version consideree comme main à la nouvelle qui est là où on a merge les dernières modifs 
+et où on veut placer l'ancien "main"
+
+|/ devient | pour "git rebase"
+ 
+             |\
+|/ devient   |/  pour git merge
+  
+git commit --allow-empty -m "ajout9" // faire une modification vide
+
+git merge --f-only feature // change l'ancienne branche 
+main ou master en feature qui devient la nouvelle branche "main"
