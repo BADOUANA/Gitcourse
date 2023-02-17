@@ -42,4 +42,4 @@ et où on veut placer l'ancien "main"
 git commit --allow-empty -m "ajout9" // faire une modification vide
 
 git merge --f-only feature // change l'ancienne branche 
-main ou master en feature qui devient la nouvelle branche "main"
+main ou master en feature qui devient la nouvelle branche "main".
