@@ -28,3 +28,5 @@ git ignore // tout ce qu'on ne prend pas en compte
 git branch // lister les branches
 git checkout [nom] ou git switch [nom] // changer de branche
 git checkout -b feature ou git switch -c feature // creer une branche et switcher dessus
+
+bonsoir
