@@ -24,3 +24,4 @@ C(bold yellow)%d%C(reset)%n'' %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' 
 // mettre une commande en alias 
 
 tout est parti.
+je change l'auteur
